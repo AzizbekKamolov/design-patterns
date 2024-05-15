@@ -1,17 +1,21 @@
 <?php
+
+namespace example2\src;
+
+use example2\src\Interfaces\CoffeeInterface;
+
 include_once('Interfaces/CoffeeInterface.php');
 
-class MochaCoffee implements CoffeeInterface
+class AmericanoCoffee implements CoffeeInterface
 {
     public const SUGAR = 30; // sugar (gram)
-    public const MILK = 160; // sugar (gram)
-    public const BOILED_WATER = 10; // sugar (gram)
-
+    public const MILK = 120; // sugar (gram)
+    public const BOILED_WATER = 50; // sugar (gram)
     public const COFFEE = 50;
 
     public function prepare(): string
     {
-        return "Ingredients to make Mocha:"
+        return "Ingredients to make Americano:"
             . self::MILK . " gram milk, "
             . self::SUGAR . " gram sugar, "
             . self::BOILED_WATER . " gram boiled water, "

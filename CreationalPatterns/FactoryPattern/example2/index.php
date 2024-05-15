@@ -1,4 +1,8 @@
 <?php
+
+use example2\src\CoffeeFactory;
+use example2\src\Enums\CoffeeTypeEnum;
+
 include ('src/Enums/CoffeeTypeEnum.php');
 include ('src/CoffeeFactory.php');
 

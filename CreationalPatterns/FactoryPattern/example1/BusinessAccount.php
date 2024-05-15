@@ -1,5 +1,7 @@
 <?php
 
+namespace example1;
+
 class BusinessAccount implements AccountInterface
 {
     public function validateUserIdentity()
@@ -9,11 +11,11 @@ class BusinessAccount implements AccountInterface
 
     public function calculateInterestRate()
     {
-        
+
     }
 
     public function registerAccount()
     {
-        
+
     }
 }

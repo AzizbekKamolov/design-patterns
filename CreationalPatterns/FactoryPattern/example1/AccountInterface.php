@@ -1,5 +1,6 @@
 <?php
 
+namespace example1;
 interface AccountInterface
 {
     public function validateUserIdentity();

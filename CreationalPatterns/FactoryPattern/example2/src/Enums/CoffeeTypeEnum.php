@@ -1,4 +1,6 @@
 <?php
+
+namespace example2\src\Enums;
 enum CoffeeTypeEnum
 {
     case CappuccinoCoffee;
@@ -6,7 +8,7 @@ enum CoffeeTypeEnum
     case MochaCoffee;
     case EspressoCoffee;
 
-    public static function accessedTypes():array
+    public static function accessedTypes(): array
     {
         return [
             self::AmericanoCoffee->name,
@@ -15,11 +17,12 @@ enum CoffeeTypeEnum
             self::CappuccinoCoffee->name
         ];
     }
-    public static function from(string $type):bool|string
+
+    public static function from(string $type): bool|string
     {
-        if (in_array($type, self::accessedTypes())){
-            foreach (self::cases() as $case){
-                if ($case->name === $type){
+        if (in_array($type, self::accessedTypes())) {
+            foreach (self::cases() as $case) {
+                if ($case->name === $type) {
                     return $type;
                 }
             }

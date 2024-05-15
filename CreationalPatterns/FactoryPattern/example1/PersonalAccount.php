@@ -1,5 +1,9 @@
 <?php
+
+namespace example1;
+
 include('AccountInterface.php');
+
 class PersonalAccount implements AccountInterface
 {
     public function validateUserIdentity()
@@ -9,11 +13,11 @@ class PersonalAccount implements AccountInterface
 
     public function calculateInterestRate()
     {
-        
+
     }
 
     public function registerAccount()
     {
-        
+
     }
 }

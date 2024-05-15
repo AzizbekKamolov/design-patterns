@@ -1,4 +1,9 @@
 <?php
+
+namespace example2\src;
+
+use example2\src\Interfaces\CoffeeInterface;
+
 include_once('Interfaces/CoffeeInterface.php');
 
 class EspressoCoffee implements CoffeeInterface

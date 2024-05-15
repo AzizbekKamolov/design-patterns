@@ -1,4 +1,8 @@
 <?php
+
+use example1\AccountEnum;
+use example1\Branch;
+
 include('Branch.php');
 
 $bankAccount = new Branch();
