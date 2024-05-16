@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="801dfc0e-3001-4281-90c3-a71df48215ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CreationalPatterns/FactoryPattern/factory-method2/FacebookPoster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CreationalPatterns/FactoryPattern/factory-method2/LinkedInPoster.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CreationalPatterns/.idea/factoryPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CreationalPatterns/.idea/factoryPattern.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CreationalPatterns/FactoryPattern/factory-method2/NetworkConnectors/FacebookConnector.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CreationalPatterns/FactoryPattern/factory-method2/NetworkConnectors/LenkidInConnector.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CreationalPatterns/FactoryPattern/factory-method2/NetworkConnectors/SocialNetworkConnector.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CreationalPatterns/FactoryPattern/factory-method2/SocialNetworkConnector.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CreationalPatterns/FactoryPattern/factory-method2/NetworkPosters/FacebookPoster.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CreationalPatterns/FactoryPattern/factory-method2/NetworkPosters/SocialNetworkPoster.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CreationalPatterns/FactoryPattern/factory-method2/SocialNetworkPoster.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CreationalPatterns/FactoryPattern/factory-method2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CreationalPatterns/FactoryPattern/factory-method2/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CreationalPatterns/Singleton/example1/Singleton.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CreationalPatterns/Singleton/example1/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CreationalPatterns/guide.text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715836753812</updated>
-      <workItem from="1715836755768" duration="5757000" />
+      <workItem from="1715836755768" duration="9895000" />
     </task>
     <servers />
   </component>
