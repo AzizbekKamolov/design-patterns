@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="801dfc0e-3001-4281-90c3-a71df48215ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CreationalPatterns/Singleton/example1/Singleton.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CreationalPatterns/Singleton/example1/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CreationalPatterns/guide.text" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,30 +19,31 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2gXGxC3HWnLYZW64wGzAOK90Tto" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/var/www/custom/designPatterns/CreationalPatterns/FactoryPattern/factory-method2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/var/www/in-kurs-crm&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../CreationalPatterns/FactoryPattern/factory-method2" />
@@ -59,11 +57,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715836753812</updated>
-      <workItem from="1715836755768" duration="9895000" />
+      <workItem from="1715836755768" duration="12853000" />
+      <workItem from="1715923573315" duration="3214000" />
+      <workItem from="1716150405329" duration="36000" />
+      <workItem from="1716151562691" duration="308000" />
+      <workItem from="1716151876228" duration="81000" />
+      <workItem from="1716151963555" duration="13000" />
+      <workItem from="1716151987715" duration="26000" />
+      <workItem from="1716152019657" duration="588000" />
+      <workItem from="1716152790823" duration="81000" />
+      <workItem from="1716152885758" duration="26000" />
+      <workItem from="1716152917015" duration="12000" />
+      <workItem from="1716181059548" duration="671000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
