@@ -44,12 +44,12 @@ class WordsCollection implements IteratorAggregate
 {
     private array $items = [];
 
-    public function getItems():array
+    public function getItems(): array
     {
         return $this->items;
     }
 
-    public function addItem($item):void
+    public function addItem($item): void
     {
         $this->items[] = $item;
     }
@@ -65,19 +65,35 @@ class WordsCollection implements IteratorAggregate
     }
 }
 
-$collection = new WordsCollection();
-$collection->addItem("1");
-$collection->addItem("2");
-$collection->addItem("3");
-var_dump($collection->getIterator());
-exit();
-echo "Straight traversal:\n";
-foreach ($collection->getIterator() as $item) {
-    echo $item . "\n";
-}
-
-echo "\n";
-echo "Reverse traversal:\n";
-foreach ($collection->getReverseIterator() as $item) {
-    echo $item . "\n";
-}
+//$collection = new WordsCollection();
+//$collection->addItem("1");
+//$collection->addItem("2");
+//$collection->addItem("3");
+//var_dump($collection->getIterator());
+//exit();
+//echo "Straight traversal:\n";
+//foreach ($collection->getIterator() as $item) {
+//    echo $item . "\n";
+//}
+//
+//echo "\n";
+//echo "Reverse traversal:\n";
+//foreach ($collection->getReverseIterator() as $item) {
+//    echo $item . "\n";
+//}
+///**
+// * @return Generator
+// */
+//function custom(): Generator
+//{
+//    for ($i = 0; $i <= 10; $i++) {
+//        yield $i;
+//    }
+//}
+//
+//
+//$generator = custom();
+////print_r(iterator_to_array($generator, false));
+//foreach ($generator as $item) {
+//    echo $item . PHP_EOL;
+//}
